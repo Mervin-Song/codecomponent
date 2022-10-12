@@ -8,12 +8,12 @@ export const Wrapper = styled.div`
 export const Pre = styled.pre`
   text-align: left;
   margin: 1em 0;
-  padding: 0.5em;
+  padding-bottom: 20px;
+  padding-right: 20px;
   overflow: scroll;
-  width: 500px;
+  width: auto;
   position: relative;
-  height: 300px;
-
+  height: auto;
   & .token-line {
     line-height: 1.3em;
     height: 1.3em;
