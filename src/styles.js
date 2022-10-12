@@ -7,16 +7,18 @@ export const Wrapper = styled.div`
 
 export const Pre = styled.pre`
   text-align: left;
-  margin: 1em 0;
+  margin: 1em;
+  padding-left: 10px;
   padding-bottom: 20px;
   padding-right: 20px;
-  overflow: scroll;
-  width: auto;
+  border-radius: 10px;
+  overflow: auto;
+  width: auto + 20px;
+  height: 300px;
   position: relative;
-  height: auto;
   & .token-line {
-    line-height: 1.3em;
-    height: 1.3em;
+    line-height: 2em;
+    height: 1.4em;
   }
 `;
 
